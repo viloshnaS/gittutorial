@@ -24,7 +24,7 @@ public class Application extends JFrame {
 		Vue vue = new Vue();
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
-		this.setTitle("We Rock");
+		this.setTitle("We Rock and wear bikinis");
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
