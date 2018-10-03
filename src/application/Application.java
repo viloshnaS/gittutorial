@@ -28,6 +28,7 @@ public class Application extends JFrame {
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
+                this.setLocationRelativeTo(null);
                 this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 	}
         
